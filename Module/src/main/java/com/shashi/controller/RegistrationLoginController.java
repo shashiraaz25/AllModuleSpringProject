@@ -17,8 +17,9 @@ public class RegistrationLoginController {
 		return "login";
 
 	}
+
 	@RequestMapping("reg")
 	String regstration() {
 		return "reg";
-}
+	}
 }
