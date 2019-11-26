@@ -12,14 +12,21 @@ public class RegistrationLoginController {
 
 	}
 
-	@RequestMapping("login")
+	@RequestMapping("/login")
 	String login() {
 		return "login";
 
 	}
 
-	@RequestMapping("reg")
+	@RequestMapping("/reg")
 	String regstration() {
 		return "reg";
 	}
+
+	@RequestMapping("/regstration")
+	String SaveRegstration() {
+		return "home";
+
+	}
+
 }
