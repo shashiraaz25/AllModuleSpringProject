@@ -13,10 +13,10 @@
 
 
 
-<form>
+<form action="registeEmp" method="post">
 <input type="text" name="name" placeholder="User Name"><br>
 <input type="number" name="number" placeholder="Phone"><br>
-<input type="text" name="add" placeholder="Addresh"><br>
+<input type="text" name="addresh" placeholder="Addresh"><br>
 
 <input type="password" name="password" placeholder="Password"><br>
 <input type="password" name="conformpassword" placeholder="Conform Password"><br>
